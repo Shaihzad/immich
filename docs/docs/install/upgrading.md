@@ -15,7 +15,7 @@ If you use `IMMICH_VERSION` in your `.env` file, it will need to be updated to t
 After that, the application can be upgraded and restarted with the following commands, run in the directory with the `docker-compose.yml` file:
 
 ```bash title="Upgrade and restart Immich"
-docker compose pull && docker compose up -d
+docker-compose pull && docker-compose up -d
 ```
 
 To clean up disk space, the old version's obsolete container images can be deleted with the following command:
